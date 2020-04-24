@@ -1,0 +1,50 @@
+/* body {
+    font-family: 'MyWebFont';
+} */
+
+/*
+ @font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.eot');
+    IE9 Compat Modes 
+    src: url('webfont.eot?#iefix') format('embedded-opentype'),
+        IE6-IE8 
+        url('webfont.woff2') format('woff2'),
+        Super Modern Browsers 
+        url('webfont.woff') format('woff'),
+        Pretty Modern Browsers 
+        url('webfont.ttf') format('truetype'),
+        Safari, Android, iOS 
+        url('webfont.svg#svgFontName') format('svg');
+    Legacy iOS
+} */
+
+@font-face {
+    font-family: 'Bebas_Neue';
+    src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BillyOhio';
+    src: url('/fonts/BillyOhio/BillyOhio.ttf'),
+        url('/fonts/BillyOhio/BillyOhio.woff');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/HelveticaLTStd-BoldCond/HelveticaLTStd-BoldCond.otf');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato/Lato-Black.ttf'),
+        url('/fonts/Lato/Lato-BlackItalic.ttf'),
+        url('/fonts/Lato/Lato-Bold.ttf'),
+        url('/fonts/Lato/Lato-BoldItalic.ttf'),
+        url('/fonts/Lato/Lato-Italic.ttf'),
+        url('/fonts/Lato/Lato-Light.ttf'),
+        url('/fonts/Lato/Lato-Regular.ttf'),
+        url('/fonts/Lato/Lato-Thin.ttf'),
+        url('/fonts/Lato/Lato-ThinItalic.ttf'),
+        url('/fonts/Lato/Lato-LightItalic.ttf');
+}

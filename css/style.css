@@ -1,0 +1,21 @@
+body {
+    font-family: 'Lato', Fallback, sans-serif;
+    min-width: 320px;
+    color: #212121;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+h2 {
+    font-family: 'Bebas_Neue';
+    font-size: 68px;
+    font-weight: 400;
+}
