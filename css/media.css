@@ -3,10 +3,27 @@
 /* Lardge Devises, Wide Screens */
 @media only screen and (max-width: 1200px) {}
 
-@media only screen and (max-width: 1140px) {}
+@media only screen and (max-width: 1140px) {
+    .main-header h1 {
+        font-size: 100px;
+    }
+}
 
 /* Medium Devises, Descktops */
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        border: 3px solid #fff;
+        background: #cd0a2d;
+        opacity: .9;
+        z-index: 1;
+    }
+
+    .navbar-collapse .nav-link {
+        text-align: center;
+    }
+
+
+}
 
 @media only screen and (max-width: 960px) {}
 

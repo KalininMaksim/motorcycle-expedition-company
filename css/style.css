@@ -1,21 +1,190 @@
 body {
-    font-family: 'Lato', Fallback, sans-serif;
-    min-width: 320px;
-    color: #212121;
+	font-family: "Lato", Fallback, sans-serif;
+	color: #212121;
+	font-size: 18px;
+	min-width: 320px;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 section {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
-
 h2 {
-    font-family: 'Bebas_Neue';
-    font-size: 68px;
-    font-weight: 400;
+	font-family: "Bebas_Neue";
+	font-size: 68px;
+	font-weight: 400;
+}
+
+.text-red {
+	color: #ff002e;
+}
+
+.btn-red {
+	font-family: "Bebas_Neue";
+	background-color: #cd0a2d;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 25px;
+	padding: 5px 25px;
+}
+
+/*================== logo ================*/
+
+.text-logo {
+	font-family: "Bebas_Neue";
+	margin-top: 50px;
+	text-align: center;
+	position: relative;
+}
+
+.text-logo img {
+	position: absolute;
+	top: -30px;
+	right: 0;
+}
+
+.text-logo p {
+	color: #fff;
+	font-size: 35px;
+	height: 38px;
+	margin: 0;
+}
+
+.text-logo .tagline {
+	color: #fff;
+	font-weight: lighter;
+	letter-spacing: 3px;
+}
+
+/*================== main-header ================*/
+
+.main-header {
+	min-height: 977px;
+	background: url(../img/header_bg.png) center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.main-header ul li a::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	transform: scale(0);
+	transition: all 0.4s;
+}
+
+.main-header ul li a:hover::after {
+	transform: scale(1);
+}
+
+.navbar-toggler i {
+	color: #fff;
+}
+
+.navbar-collapse .nav-link {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav-item .circle {
+	display: block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 4px solid #fff;
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+.circle i {
+	margin-top: 12px;
+	margin-left: 12px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.main-header h1 {
+	font-family: "BillyOhio";
+	font-weight: normal;
+	font-size: 115px;
+	letter-spacing: 0rem;
+	word-spacing: -2.5rem;
+	line-height: 6rem;
+	color: #fff;
+}
+
+.main-content {
+	position: absolute;
+	max-width: 1170px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*================== section-order ================*/
+.section-order {
+	background: #f3f3f3;
+}
+
+.section-order .card {
+	border: none;
+	position: relative;
+	margin: 10px 0;
+}
+
+.section-order .triangle {
+	position: absolute;
+	left: -20px;
+	top: 200px;
+	width: 0px;
+	height: 0px;
+	border-style: inset;
+	border-width: 0 170px 170px 0;
+	border-color: transparent transparent #cd0a2d transparent;
+}
+
+.triangle p {
+	font-family: "Bebas_Neue";
+	color: #fff;
+	font-size: 25px;
+	top: 55px;
+	left: 30px;
+	position: relative;
+	height: 60px;
+	width: 110px;
+	margin: 0px;
+	padding: 0;
+}
+
+.triangle p span {
+	font-size: 60px;
+}
+
+.section-order .card img {
+	height: 350px;
+	object-fit: cover;
+}
+
+.card-body {
+	font-family: Helvetica;
+
+}
+
+.card-body h5 {
+	font-size: 26px;
+	padding: 15px 0;
+}
+
+.card-body p {
+	color: #717171;
 }
