@@ -1,7 +1,21 @@
 /*========== media ============*/
 
 /* Lardge Devises, Wide Screens */
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1265px) {
+    .content h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .content {
+        z-index: 2;
+    }
+
+    .content p {
+        opacity: 1;
+    }
+}
 
 @media only screen and (max-width: 1140px) {
     .main-header h1 {
@@ -22,13 +36,25 @@
         text-align: center;
     }
 
+    .section-our-team .motto {
+        display: none;
+    }
+
+    .bg-red,
+    .bg-wite {
+        margin: 0;
+    }
 
 }
 
 @media only screen and (max-width: 960px) {}
 
 /* Small Devises, Tablets */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .person .person-ico {
+        padding: 0 20px 20px 80px;
+    }
+}
 
 @media only screen and (max-width: 720px) {}
 
