@@ -384,3 +384,12 @@ h2 {
 	height: 30px;
 	width: 150px;
 }
+
+/*================== section-jurney ================*/
+
+.section-jurney {
+	background: url(../img/jurney_bg.png) center no-repeat;
+	background-size: cover;
+	padding: 120px 0 150px;
+	color: #fff;
+}
