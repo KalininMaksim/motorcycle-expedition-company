@@ -259,7 +259,7 @@ h2 {
 }
 
 .section-our-team .person-name {
-	font-family: 'Bebas_Neue';
+	font-family: "Bebas_Neue";
 	text-transform: uppercase;
 	display: flex;
 }
@@ -273,4 +273,41 @@ h2 {
 .section-our-team .person h3 {
 	font-size: 47px;
 	letter-spacing: 7px;
+}
+
+/*================== section-raider ================*/
+.section-raider {
+	padding: 0;
+}
+
+.section-raider .card-rider {
+	background: #fff;
+	margin-top: 100px;
+	padding: 0 60px;
+}
+
+.section-raider .person-raider {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.person-raider .raider-ico {
+	padding-right: 20px;
+}
+
+.person-raider .raider-ico img {
+	border-radius: 50%;
+}
+
+.card-rider .text-card-raider {
+	font-style: italic;
+}
+
+.person-raider .raider-name h5,
+.person-raider .raider-name p {
+	margin-top: 10px;
+	height: 15px;
+	font-family: "Bebas_Neue";
+	font-size: 24px;
 }
