@@ -311,3 +311,64 @@ h2 {
 	font-family: "Bebas_Neue";
 	font-size: 24px;
 }
+
+
+/*================== section-our-achievements ================*/
+
+.section-our-achievements {
+	background: url(../img/achievements_bg.png) center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 0;
+	position: relative;
+}
+
+.section-our-achievements .motto-achievements {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.bg-opassity-red {
+	background: #ff0633;
+	opacity: .8;
+	padding-top: 60px;
+
+}
+
+.bg-opassity {
+	padding-top: 60px;
+}
+
+.section-our-achievements .title {
+	padding: 0 0 80px;
+}
+
+.section-our-achievements .count,
+.section-our-achievements .count-bigger {
+	font-family: Helvetica;
+	text-transform: uppercase;
+	z-index: 9;
+
+}
+
+.section-our-achievements .count h3 {
+	padding-top: 20px;
+	font-size: 45px;
+}
+
+.section-our-achievements .count-bigger h3 {
+	font-size: 60px;
+}
+
+.section-our-achievements .count-bigger span {
+
+	font-size: 30px;
+}
+
+.section-our-achievements .achievements-text {
+	padding: 80px 0 60px;
+}

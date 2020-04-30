@@ -21,6 +21,23 @@
     .main-header h1 {
         font-size: 100px;
     }
+
+    .motto-achievements {
+        display: none;
+    }
+
+    .section-our-achievements .count h3 {
+        font-size: 36px;
+    }
+
+    .section-our-achievements .count-bigger h3 {
+        font-size: 45px;
+    }
+
+    .section-our-achievements .count-bigger span {
+
+        font-size: 28px;
+    }
 }
 
 /* Medium Devises, Descktops */
@@ -57,6 +74,10 @@
 @media only screen and (max-width: 768px) {
     .person .person-ico {
         padding: 0 20px 20px 80px;
+    }
+
+    .section-our-achievements .achievements-text {
+        padding: 40px 0 30px;
     }
 }
 
