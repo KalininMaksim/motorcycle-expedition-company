@@ -66,9 +66,12 @@
         display: none;
     }
 
-}
+    .footer-contact {
+        display: block;
+        text-align: center;
+    }
 
-@media only screen and (max-width: 960px) {}
+}
 
 /* Small Devises, Tablets */
 @media only screen and (max-width: 768px) {
@@ -81,13 +84,15 @@
     }
 }
 
-@media only screen and (max-width: 720px) {}
+@media only screen and (max-width: 720px) {
+    .mine-footer .marker {
+        font-size: 180px;
+        top: -8%;
+    }
+}
 
-@media only screen and (max-width: 576px) {}
-
-@media only screen and (max-width: 540px) {}
-
-/* Exstra Small Devices, Phones */
-@media only screen and (max-width: 480px) {}
-
-@media only screen and (max-width: 380px) {}
+@media only screen and (max-width: 380px) {
+    .mine-footer .marker {
+        top: -6%;
+    }
+}

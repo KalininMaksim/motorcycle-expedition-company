@@ -312,7 +312,6 @@ h2 {
 	font-size: 24px;
 }
 
-
 /*================== section-our-achievements ================*/
 
 .section-our-achievements {
@@ -334,9 +333,8 @@ h2 {
 
 .bg-opassity-red {
 	background: #ff0633;
-	opacity: .8;
+	opacity: 0.8;
 	padding-top: 60px;
-
 }
 
 .bg-opassity {
@@ -352,7 +350,6 @@ h2 {
 	font-family: Helvetica;
 	text-transform: uppercase;
 	z-index: 9;
-
 }
 
 .section-our-achievements .count h3 {
@@ -365,7 +362,6 @@ h2 {
 }
 
 .section-our-achievements .count-bigger span {
-
 	font-size: 30px;
 }
 
@@ -386,10 +382,67 @@ h2 {
 }
 
 /*================== section-jurney ================*/
+.mine-footer {
+	padding: 80px;
+}
 
 .section-jurney {
 	background: url(../img/jurney_bg.png) center no-repeat;
 	background-size: cover;
 	padding: 120px 0 150px;
 	color: #fff;
+}
+
+/*================== main-footer ================*/
+.mine-footer {
+	position: relative;
+}
+
+.mine-footer .marker {
+	font-size: 200px;
+	color: #cd0a2d;
+	position: absolute;
+	top: -10%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.footer-contact {
+	display: flex;
+	justify-content: space-around;
+}
+
+.info-block {
+	position: relative;
+}
+
+.info-block h3 {
+	margin-left: 15px;
+}
+
+.info-block span {
+	font-size: 50px;
+	position: absolute;
+	left: -70px;
+}
+
+.footer-social-media {
+	text-align: center;
+}
+
+.footer-social-media .footer-circle {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #f0d839;
+	border-radius: 50%;
+	margin: 30px 15px;
+}
+
+.footer-circle i {
+	margin-left: 50%;
+	margin-top: 50%;
+	transform: translate(-50%, -50%);
 }
